@@ -3,6 +3,9 @@
   "displayName": "Modus Themes",
   "description": "A Port of the Modus Theme by Protesilaos",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://gitlab.com/domsch1988/vscode-modus-themes"
+  },
   "engines": {
     "vscode": "^1.87.0"
   },
@@ -20,6 +23,16 @@
         "label": "Modus Vivendi Tinted",
         "uiTheme": "vs-dark",
         "path": "./themes/Modus Vivendi Tinted-color-theme.json"
+      },
+      {
+        "label": "Modus Operandi",
+        "uiTheme": "vs",
+        "path": "./themes/Modus Operandi-color-theme.json"
+      },
+      {
+        "label": "Modus Vivendi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Modus Vivendi-color-theme.json"
       }
     ]
   }
