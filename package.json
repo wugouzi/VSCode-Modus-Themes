@@ -1,0 +1,26 @@
+{
+  "name": "modus-themes",
+  "displayName": "Modus Themes",
+  "description": "A Port of the Modus Theme by Protesilaos",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Modus Operandi Tinted",
+        "uiTheme": "vs",
+        "path": "./themes/Modus Operandi Tinted-color-theme.json"
+      },
+      {
+        "label": "Modus Vivendi Tinted",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Modus Vivendi Tinted-color-theme.json"
+      }
+    ]
+  }
+}
