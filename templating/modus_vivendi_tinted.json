@@ -4,6 +4,7 @@
     "fg-main": "#ffffff",
     "fg-dim": "#989898",
     "bg-dim": "#1d2235",
+    "bg-hover": "#45605e",
     "bg-hl-line": "#303a6f",
     "bg-tab-other": "#4a4f6a",
     "bg-added-fringe": "#23884f",

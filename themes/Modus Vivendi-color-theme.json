@@ -9,6 +9,7 @@
 		"editorLineNumber.foreground": "#989898",
 		"editorLineNumber.activeForeground": "#ffffff",
 		"editorGroupHeader.tabsBackground": "#1e1e1e",
+		"editorGroup.border": "#646464",
 		"editorCursor.foreground": "#ff66ff",
 		"editor.selectionBackground": "#004065",
 		"editor.findMatchBackground": "#7a6100",
@@ -19,12 +20,20 @@
 		"editorGutter.addedBackground": "#237f3f",
 		"editorGutter.deletedBackground": "#b81a1f",
 		"editorGutter.modifiedBackground": "#8a7a00",
+		"editorWidget.background": "#1e1e1e",
+		"editorWidget.border": "#646464",
+		"editorWidget.foreground": "#ffffff",
+		"peekViewEditor.background": "#1e1e1e",
+		"peekViewResult.background": "#1e1e1e",
+		"peekViewTitle.background": "#1e1e1e",
 		"sideBar.background": "#1e1e1e",
 		"sideBar.foreground": "#ffffff",
 		"sideBar.border": "#646464",
 		"sideBarSectionHeader.background": "#545454",
 		"list.inactiveSelectionBackground": "#2f3849",
 		"list.activeSelectionBackground": "#2f3849",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.focusForeground": "#ffffff",
 		"list.hoverBackground": "#545454",
 		"list.focusAndSelectionOutline": "#646464",
 		"terminal.background": "#000000",
@@ -49,12 +58,20 @@
 		"terminal.ansiYellow": "#d0bc00",
 		"terminal.foreground": "#ffffff",
 		"terminal.selectionForeground": "#004065",
-		"button.background": "#2f3849",
+		"button.background": "#545454",
 		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#45605e",
+		"dropdown.background": "#1e1e1e",
+		"dropdown.listBackground": "#1e1e1e",
 		"activityBar.background": "#000000",
-		"activityBar.activeBackground": "#1e1e1e",
+		"activityBar.activeBackground": "#2f3849",
+		"activityBarTop.activeBorder": "#2f3849",
+		"activityBarTop.activeBackground": "#2f3849",
 		"activityBar.foreground": "#ffffff",
 		"activityBar.activeBorder": "#2f3849",
+		"scrollbarSlider.activeBackground": "#646464",
+		"scrollbarSlider.background": "#646464",
+		"scrollbarSlider.hoverBackground": "#646464",
 		"statusBar.background": "#484d67",
 		"statusBar.debuggingBackground": "#2f3849",
 		"statusBar.debuggingForeground": "#ffffff",
@@ -69,7 +86,8 @@
 		"gitlens.trailingLineForegroundColor": "#79a8ff",
 		"statusBarItem.remoteBackground": "#2fafff",
 		"statusBarItem.remoteForeground": "#000000",
-		"input.background": "#303030"
+		"input.background": "#303030",
+		"input.border": "#646464"
 	},
 	"tokenColors": [
 		// red
@@ -101,7 +119,7 @@
 			"name": "Comments: Documentation",
 			"scope": [
 				"comment.documentation",
-				"comment.block.documentation"
+				"comment.block.documentation",
 			],
 			"settings": {
 				"foreground": "#44bc44"
@@ -123,8 +141,7 @@
 			"name": "Numbers, Characters",
 			"scope": [
 				"constant.numeric",
-				"constant.character",
-				"constant"
+				"constant.character"
 			],
 			"settings": {
 				"foreground": "#fec43f"
@@ -135,10 +152,10 @@
 			"name": "String: Doublequotes",
 			"scope": [
 				"string.regexp",
-				"entity.name.section",
+				"entity.name.section"
 			],
 			"settings": {
-				"foreground": "#2fafff",
+				"foreground": "#2fafff"
 			}
 		},
 		// blue-warmer
@@ -160,7 +177,6 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"variable.language",
 			],
 			"settings": {
 				"foreground": "#00bcff"
@@ -171,10 +187,10 @@
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
+				"support.type"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#feacd0"
 			}
 		},
@@ -182,7 +198,6 @@
 		{
 			"name": "Classes",
 			"scope": [
-				"entity.name.type",
 				"entity.other.inherited-class",
 				"support.class"
 			],
@@ -197,7 +212,9 @@
 			"scope": [
 				"keyword.operator",
 				"keyword",
-				"storage"
+				"storage",
+				"storage.type",
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#b6a0ff"
@@ -209,7 +226,9 @@
 			"scope": [
 				"variable",
 				"support.variable",
-				"entity.name.tag"
+				"entity.name.tag",
+				"constant",
+				"meta.attribute.python"
 			],
 			"settings": {
 				"foreground": "#00d3d0"
@@ -219,11 +238,21 @@
 		{
 			"name": "Types",
 			"scope": [
-				"storage.type",
-				"support.type"
+				"entity.name.type",
+				"support.type.exception.python"
 			],
 			"settings": {
 				"foreground": "#6ae4b9"
+			}
+		},
+		// cyan-faint
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#9ac8e0"
 			}
 		},
 		// fg-main
