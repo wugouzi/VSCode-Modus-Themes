@@ -1,0 +1,7 @@
+{
+    "editor.glyphMargin": false,
+    "editor.folding": true,
+    "editor.lineNumbers": "on",
+    "editor.lineDecorationsWidth": 0, // undocumented
+    "editor.lineNumbersMinChars": 0,  // undocumented
+}
